@@ -1,0 +1,300 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+header{
+    padding: 10px 100px;
+    box-sizing:border-box;
+}
+section{
+    width: 100%;
+    height:105vh;
+}
+
+/*this is the first section of the homepage*/
+section.first-section{
+    background: url(https://dev.genejunction.com/images/slides/slide-helix.jpg);
+    background-size: cover;
+}
+
+
+nav{
+    width: 100%;
+    height: 100px;
+    background:#fff(0,0,0,.8);
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: none;
+    position:sticky;
+    top: 0;
+    padding-top: 20px;
+}
+nav ul{
+    display: flex;
+    margin:0;
+    padding: 0 100px;
+    float: right;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+}
+.first-left-content{
+    color: #fff;
+    padding-top: 190px;
+    margin-left: 90px;
+}
+.first-left-content h1{
+    font-weight: bold;
+    color: #fff;
+}
+.first-left-content h4{
+    color: #fff;
+    font-weight:400;
+    padding-top: 10px;
+}
+.first-left-content button{
+    background-color: #03cda6;
+    padding-top: 10px;
+    margin-top: 30px;
+    color: #fff;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 50px;
+    border: none;
+}
+.first-left-content p{
+    padding-top: 10px;
+    margin-left: 35px;
+}
+
+/*this is the second section of the page*/
+
+section.second-section{
+    background-color:rgb(184, 228, 228);
+    height: 550px;
+}
+
+.second-left-content{
+    color:#606060;
+    padding-top: 200px;
+    margin-left: 90px;
+}
+
+.second-right-content{
+    padding-top: 90px;
+    border-radius: 30px;
+}
+
+.video-one{
+   border-radius: 50px;
+}
+
+/*This is the third section of the page*/
+
+section.third-section{
+    background: url(https://dev.genejunction.com/images/myehr/health-folio-bg.jpg);
+    background-size: cover;
+}
+
+.healthfolio-logo{
+    padding-left: 10px;
+    margin-left: 105px;
+    
+}
+
+.top-three{
+    margin-top: 50px;
+}
+
+.text-one{
+    margin-left: 115px;
+}
+
+.text-one p{
+    font-weight:650;
+    font-size:16px;
+}
+
+.text-two{
+    margin-left:115px;
+    margin-top: 30px;
+}
+
+.text-two p{
+    font-weight:650;
+    font-size:16px;
+}
+
+.after-text{
+    padding-left:110px;
+}
+
+@media only screen and(max-width:768px){
+    section.second-section{
+        background-color: #606060;
+    }
+}
+
+/*This is the forth section of the page*/
+
+section.forth-section{
+    background: url(https://dev.genejunction.com/images/general/dna.jpg);
+    background-size: 1400px;
+}
+
+.forth-left-content{
+    padding-top: 120px;
+}
+.forth-left-content span{
+    font-size: 35px;
+    color: #fff;
+    padding-left: 80px;
+    padding-top: 120px;
+}
+
+.forth-left-content p{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 80px;
+    
+}
+
+.forth-text-bot p{
+    padding-left: 80px;
+}
+
+/*THIS IS THE FIFTH SECTION*/
+
+section.fifth-section{
+    background: url(https://dev.genejunction.com/images/consult/consult-bg.jpg);
+    background-size: cover;
+    
+}
+
+.fifth-left-content{
+    padding-top: 250px;
+    padding-left: 80px;
+    padding-bottom: 170px;
+
+}
+
+.fifth-right-content{
+    padding-top: 250px;
+    padding-left: 80px;
+    padding-bottom: 170px;
+
+}
+
+/*THIS IS THE SIXTH CONTENT*/
+section.sixth-content{
+   
+}
+
+/*THIS IS THE SEVENTH CONTENT*/
+.seventh-left-content h1{
+    padding-left: 80px;
+    padding-top: 200px;
+}
+
+.seventh-logo{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.seventh-left-content{
+    padding-left: 100px;
+    font-size: 15px;
+}
+
+/*THIS IS THE EIGHT CONTENT*/
+section.eight-content{
+    height: 50px;
+}
+
+.eight-left-content{
+    padding-top: 110px;
+}
+
+.eight-left-content h2{
+    padding-left: 80px;
+}
+
+.eight-left-content p{
+    padding-left: 80px;
+}
+
+.eight-dropdown-button{
+    padding-left: 80px;
+}
+
+.eight-right-content{
+    padding-top: 120px;
+}
+
+.eight-dropdown-button p{
+    padding-left: 0px;
+}
+
+/*THIS IS THE NINTH CONTENT*/
+
+section.ninth-section{
+    background-color: #f4f4f4;
+    height: 800px;
+}
+
+.ninth-top{
+    padding-top: 50px;
+}
+
+.first-card-first-carousel{
+    width: 320px;
+    margin-left:110px;
+    margin-top:0px;
+}
+
+.second-card-first-carousel{
+    width: 320px;
+    margin-left:150px;
+    margin-top: 90px;
+}
+
+.third-card-first-carousel{
+    width: 320px;
+    margin-left:190px;
+    margin-top:90px;
+}
+
+/*THIS IS THE TENTH SECTION*/
+section.tenth-section{
+    background-color: #fff;
+    height: 1000px;
+}
+
+.tenth-top{
+    padding-top: 80px;
+}
+.item-one{
+    padding-left: 20px;
+    padding-top: 90px;
+}
+.oke{
+    margin-left: 20px;
+    padding-top: 90px;
+}
+/*THIS IS THE FOOTER*/
+
+
